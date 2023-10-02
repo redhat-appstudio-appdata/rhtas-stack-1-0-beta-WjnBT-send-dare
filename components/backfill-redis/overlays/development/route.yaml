@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: backfill-redis
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: backfill-redis
+    app.kubernetes.io/part-of: rhtas-stack-1-0-beta
+  name: backfill-redisn4kv
+spec:
+  port:
+    targetPort: 8000
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: backfill-redis
+    weight: 100
+status: {}
