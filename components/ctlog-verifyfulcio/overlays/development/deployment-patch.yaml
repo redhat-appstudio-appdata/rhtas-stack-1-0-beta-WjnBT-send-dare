@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: ctlog-verifyfulcio
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/ctlog-verifyfulcio@sha256:1f8cdfeee6b5a1936c62193589dbe3bb6343a6944df7a2b17ce08117d800c6ae
+        name: my-go
+        resources: {}
+status: {}
