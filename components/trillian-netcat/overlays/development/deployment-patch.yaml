@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: trillian-netcat
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/trillian-netcat@sha256:5ce73e57a82ef2aab2aa364bd2d3abaa23a4fcf284fd5e19137d28428442c6de
+        name: container-image
+        resources: {}
+status: {}
