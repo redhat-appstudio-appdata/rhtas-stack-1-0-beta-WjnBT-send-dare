@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: trillian-netcat
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/trillian-netcat@sha256:5ce73e57a82ef2aab2aa364bd2d3abaa23a4fcf284fd5e19137d28428442c6de
         imagePullPolicy: Always
         name: container-image
         ports:
