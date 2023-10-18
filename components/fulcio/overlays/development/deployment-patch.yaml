@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/fulcio@sha256:bd74ee8419534c7f010a510959ecb15c7212f60abaa4617adc92d7b3f8e7aa7b
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/fulcio@sha256:be317890f1f8f2cdaa8ab513429bd7bf1ff58ac6cee111430ca1b4b2fcd22461
         name: container-image
         resources: {}
 status: {}
