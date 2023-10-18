@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/cloudsqlproxy@sha256:cf5f1fb7c7ae6e4f87d4576de0bcda5eb6136e780d055362a9ee3addd608bd98
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/cloudsqlproxy@sha256:a6a3ba763a3560233c9f5025eea34708da52dea0a223f3d7b79d07e20f26c865
         name: my-go
         resources: {}
 status: {}
