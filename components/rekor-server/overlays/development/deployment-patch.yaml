@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/rekor-server@sha256:c3669bb88f7ea025e5978a97d2c9f23a8d114a48c9a5fc734a0bb3722673fe7a
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/rekor-server@sha256:7144f42e6905dd377601df8968881831e6fdce619e765742d5246af69a09b349
         name: container-image
         resources: {}
 status: {}
