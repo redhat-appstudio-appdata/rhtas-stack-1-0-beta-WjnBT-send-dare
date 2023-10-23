@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: createcerts
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/createcerts@sha256:fae46c26569a83d51d48c5c39e8669a042276e1612e12253a193b475e0e68a97
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/createcerts@sha256:7fcfe32c0d6f11bef9a464b1ee18669e0085600c97953f5c6cb6712e746e1ecb
         name: my-go
         ports:
         - containerPort: 8081
