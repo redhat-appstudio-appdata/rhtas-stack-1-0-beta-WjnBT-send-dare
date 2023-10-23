@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: ctlog-managectroots
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/ctlog-managectroots@sha256:cc7b6c6e615182b83ec7ab8360b53c5c10dc3f53cd4d4e9ed2113c0809b0beac
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/ctlog-managectroots@sha256:3e8501232c9492fed441a2ffad38c7bafe807dd10212e629a622d7d2cf38c23f
         name: my-go
         ports:
         - containerPort: 8081
