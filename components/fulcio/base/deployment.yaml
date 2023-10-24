@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: fulcio
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/fulcio@sha256:564df6e31b27f1ae0a8c9cdaec920cf7ad4f1681cfe3b7e5e8d2f8341db8bcb5
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/fulcio@sha256:fe2f7a100a4eeb6517cd1211faf3cf8cf38bb41fda75ccba952cec359fcabbe5
         imagePullPolicy: Always
         name: container-image
         ports:
