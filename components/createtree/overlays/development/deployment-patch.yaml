@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/createtree@sha256:077bdceb4ad79cfcdbcabc3cdb8fe115d37128e7e932cb02edb4c11fe97de85c
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/createtree@sha256:6c4dcc1b4630ab88f05afaf0d2d2e489b5d66282ada0114426f90106e5230fff
         name: my-go
         resources: {}
 status: {}
