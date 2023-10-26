@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: timestamp-authority
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/timestamp-authority@sha256:c4d0aaba5eefd196bd4111a648364b8d82a7cc5f2bf0738bc645c2ab143eb614
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/timestamp-authority@sha256:f314926f72fb7ad8a0135be29d51643b2fbb2bc41945ec3606f5ab615fb02363
         imagePullPolicy: Always
         name: container-image
         ports:
