@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/backfill-redis@sha256:2576997867d264c60638848668cd74fddf9e7f4b1074e23d9126c2e771182996
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/backfill-redis@sha256:90c873ac01948ba7c80454f48de0dc858802a40806a0f9ba9ea553bdcf9e260a
         name: container-image
         resources: {}
 status: {}
