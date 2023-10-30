@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: ctlog-verifyfulcio
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/ctlog-verifyfulcio@sha256:53c95f9dd1650586b260d09062153ece405966a82238291d176b5730d8e90dab
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/ctlog-verifyfulcio@sha256:58aa0b3ef6143adc2e54727224f9e4b25b7b9f428f74be2113a7a72db416b014
         name: my-go
         ports:
         - containerPort: 8081
