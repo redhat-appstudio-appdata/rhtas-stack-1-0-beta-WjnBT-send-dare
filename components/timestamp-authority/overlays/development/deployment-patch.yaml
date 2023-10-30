@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/timestamp-authority@sha256:bbfdc0bb119e653f8b8c87dc1eda9b52882335e6754dec5f10356c3927c820d1
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/timestamp-authority@sha256:c8aa5b04797cc229bece5b4bbcc11685f9e736798cb926d34dc83e0e8b209ddd
         name: container-image
         resources: {}
 status: {}
