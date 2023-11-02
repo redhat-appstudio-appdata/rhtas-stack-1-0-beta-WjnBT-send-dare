@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: trillian-logsigner
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/trillian-logsigner@sha256:9ecb6169d09cf0a3683763dfc2e6f723e15105288bd7a593aac145fba066d193
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/trillian-logsigner@sha256:c3f19f75aec3520cd358692e6c55d58bb3c3b52266a2f313a35e854d0d4da90a
         imagePullPolicy: Always
         name: container-image
         ports:
