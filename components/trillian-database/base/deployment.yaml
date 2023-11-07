@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: trillian-database
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/trillian-database@sha256:e255382de58437a0a03ebb3cca26b8eb3016430ae66c106f9f114e79208cc8c9
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/trillian-database@sha256:1f028f00eca503804e59ba7dae5c0da758a2751433fc82955ebecfd452e497b6
         imagePullPolicy: Always
         name: container-image
         ports:
