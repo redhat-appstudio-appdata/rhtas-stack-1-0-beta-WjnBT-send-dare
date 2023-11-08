@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: createdb
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/createdb@sha256:f0f6d8435deef3217d8d70b9831eeccd80e1fdbf4fd177f759a23460b6a803ae
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/createdb@sha256:c2067866e8cd73710bcdb218cb78bb3fcc5b314339a466de2b5af56b3b456be8
         name: my-go
         ports:
         - containerPort: 8081
