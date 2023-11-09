@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: segment-backup-job
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: segment-backup-job
+    app.kubernetes.io/part-of: rhtas-stack-1-0-beta
+  name: segment-backup-jobu47t
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: segment-backup-job
+    weight: 100
+status: {}
