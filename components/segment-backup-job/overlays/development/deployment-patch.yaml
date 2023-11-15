@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/segment-backup-job@sha256:60f3aef552d72995b2ea4cd533cfa007b90e1b499fe598a29456e6b78259b05f
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/segment-backup-job@sha256:d5b5f7942e898a056d2268083e2d4a45f763bce5697c0e9788d5aa0ec382cc44
         name: container-image
         resources: {}
 status: {}
