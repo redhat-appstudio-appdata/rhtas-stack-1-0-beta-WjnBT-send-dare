@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/trillian-database@sha256:fe4758ff57a9a6943a4655b21af63fb579384dc51838af85d0089c04290b4957
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/trillian-database@sha256:02664d716ae1d94716501232460ae0851d2a11825dbb62f94799fa47cb504aa8
         name: container-image
         resources: {}
 status: {}
