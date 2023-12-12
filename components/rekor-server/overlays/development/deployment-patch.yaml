@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: rekor-server
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
