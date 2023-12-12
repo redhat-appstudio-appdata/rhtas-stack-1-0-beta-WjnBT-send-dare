@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: client-server
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/client-server@sha256:5963c43a74bb14c7ff3dd1e2868541a343096d7b71ca35c31d84cd0bb060f304
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-stack-1-0-beta/client-server@sha256:ed6f5df38376f4a7a9e6c47a46461ef8383e103261e34ea1bf1b927ff1ce55fc
         name: container-image
         resources: {}
 status: {}
