@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: timestamp-authority
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
